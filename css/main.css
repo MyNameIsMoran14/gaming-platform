@@ -138,3 +138,16 @@ header nav ul li.btn a:hover{
 }
 
 /*Секция с играми*/
+.trending h3{
+    font-weight: 600;
+    font-size: 31px;
+}
+
+.trending .see-all{
+    color: #fff;
+    background: #252110;
+    border-radius: 5px;
+    padding: 12px 23px;
+    float: right;
+    display: block;
+}
