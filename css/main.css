@@ -180,10 +180,34 @@ header nav ul li.btn a:hover{
     margin-right: 7px;
 }
 
+/*Секция с баннером*/
+
 .big-text {
     padding: 50px;
     font-size: 35px;
     font-weight: 600;
     text-align: center;
     width: 800px;
+}
+
+.banner {
+    padding: 80px 0;
+
+}
+
+.banner h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.banner p{
+    line-height: 170%;
+    margin-bottom: 30px;
+    width: 550px;
+}
+
+.banner img{
+    width: 100%;
+    margin-bottom: 30px;
 }
