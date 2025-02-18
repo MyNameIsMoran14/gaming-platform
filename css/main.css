@@ -215,9 +215,10 @@ header nav ul li.btn a:hover{
 /*информация о проекте*/
 
 .features{
-    background: url('/img/background.png') no-repeat center center fixed;
+    background-image: url("../img/astronaut_portal_neon.jpg");
     background-size: cover;
     padding: 80px 0;
+    background-position: center;
 }
 
 .features h3{
