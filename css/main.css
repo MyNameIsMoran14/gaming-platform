@@ -23,6 +23,7 @@ img{
 .wrapper{
     background: linear-gradient(180deg,rgba(0,0,0,1) 0%,rgba(26,14,1,1) 100%);
     width: 100%;
+    overflow-x: hidden;
 }
 
 .container{
@@ -34,7 +35,7 @@ header{
     padding: 50px 0;
 }
 
-header .logo{
+header .logo, footer .blocks .logo{
     text-transform: uppercase;
     font-size: 29px;
     font-weight: 800;
@@ -116,7 +117,7 @@ header nav ul li.btn a:hover,  .email .block button:hover{
     margin: 30px 0;
 }
 
-.hero--info .btn{
+.hero--info .btn,.hero-about .info .btn{
     background: #FA8305;
     color: #fff;
     border-radius: 50px;
@@ -126,7 +127,7 @@ header nav ul li.btn a:hover,  .email .block button:hover{
     font-size: 17px;
 }
 
-.hero--info .btn:hover{
+.hero--info .btn:hover,.hero-about .info .btn:hover{
     cursor:pointer;
     transform: scale(1.1);
 }
@@ -344,3 +345,73 @@ header nav ul li.btn a:hover,  .email .block button:hover{
 
 }
 
+/*Страница о нас*/
+.hero-about {
+    position: relative;
+}
+
+.hero-about .info{
+    width: 500px;
+    padding: 250px 0;
+}
+
+.hero-about .info h1{
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.hero-about .info .btn{
+    margin-top: 20px;
+}
+
+.hero-about img{
+    position: absolute;
+    right: -150px;
+    top: 0;
+}
+
+
+/*footer*/
+
+footer{
+    background: #000;
+    padding: 50px 0;
+}
+
+footer .blocks{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+footer .blocks p{
+    width: 300px;
+    margin: 15px 0;
+}
+
+footer .blocks h4{
+    font-weight: 500;
+    font-size: 17px;
+    
+}
+
+footer .blocks ul{
+    list-style: none;
+}
+
+footer .blocks ul li{
+    margin-top: 7px;
+    opacity: 0.8;
+}
+
+footer hr{
+    margin: 30px 0;
+    border: 0;
+    height: 0.6px;
+    background: #ccc;
+
+}
+
+footer > p{
+    text-align: center;
+}
