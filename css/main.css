@@ -10,6 +10,7 @@ body{
     font-weight: 400;
     color: #fff;
     font-size: 16px;
+    background: #000;
 }
 
 a{
@@ -370,7 +371,144 @@ header nav ul li.btn a:hover,  .email .block button:hover{
     top: 0;
 }
 
+.work{
+    padding: 80px 0;
+}
 
+.work h2{
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.work .blocks{
+    display: flex;
+    justify-content: space-between;
+}
+
+.work .blocks .block{
+    width: 25%;
+    border-radius: 10px;
+    padding: 50px 35px;
+    background: #1C140F;
+}
+
+.work .blocks .block h3{
+    font-size: 20px;
+    margin: 20PX 0;
+
+}
+
+.work .blocks .block .badge{
+    border-radius: 7px;
+    padding: 10px 20px;
+}
+
+.work .blocks .block .badge.purple{
+    background: #560f67;
+}
+
+.work .blocks .block .badge.brown{
+    background: #31190d;
+}
+
+.work .blocks .block .badge.green{
+    background: #192a1d;
+}
+
+/*contact*/
+.hero-contacts h1{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 33px;
+
+}
+
+.hero-contacts p{
+    text-align: center;
+}
+
+.hero-contacts img{
+    width: 70%;
+    margin: 80px 15%;
+
+    
+}
+
+/*feedback*/
+
+.feedback {
+    padding: 70px;
+    background: #1C140F;
+}
+
+.feedback h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.feedback p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.feedback form{
+    margin: 80px auto;
+    width: 600px;
+}
+
+.feedback form .inline{
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback form .inline > div{
+    width: 50%;
+}
+
+.feedback form label{
+    color: #4f4f4f;
+    font-size: 14px;
+}
+
+.feedback form input, 
+.feedback form textarea{
+    background: #2c2420;
+    border-radius: 10px;
+    border: 0.6px solid #CECECE;
+    display: block;
+    width: 90%;
+    padding: 15px 10px;
+    outline: none;
+    color: #fff;
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+
+.feedback form .one-line{
+    width: 95%;
+}
+
+.feedback form textarea{
+    resize: none;
+    height: 200px;
+}
+
+.feedback form button{
+    background: #DC7000;
+    border-radius: 5px;
+    border: 0;
+    float: right;
+    cursor: pointer;
+    color:#fff;
+    padding: 15px 35px;
+    transition: all 500ms ease;
+}
+
+.feedback form button:hover{
+    background: #a02604;
+} 
 /*footer*/
 
 footer{
